@@ -27,8 +27,6 @@ id_producto varchar(9) NOT NULL,
 constraint fk_id_producto foreign key (id_producto) references tipo_producto(id_producto)
 );
 
-
-
 CREATE TABLE pedido(
 
 nombreU varchar(30) NOT NULL,
